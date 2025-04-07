@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+    color: black;
+}
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    margin: 100px;
+}
+.containerBtn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.btn{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: black;
+    border: 2px solid #fff;
+    color: springgreen;
+}
